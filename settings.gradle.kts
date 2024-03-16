@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "GHMasta2"
 include(":app")
- 
+include(":model")
+include(":toy_without_catalog")

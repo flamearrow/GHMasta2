@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "band.mlgb.ghmasta2";
+option java_multiple_files = true;
+
+// Define a message for your data
+message SearchQuery {
+  repeated string recentSearchQueries = 1;
+}
